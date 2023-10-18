@@ -26,7 +26,7 @@ function AddDaysToDate() {
     if (!isNaN(inputDate.getTime())) {
       // Create an array of days to calculate
       const daysToCalculate = [
-        3, 5, 7, 8, 10, 12, 14, 15, 18, 21, 25, 28, 30, 35, 40, 45
+        3, 4, 5, 7, 8, 10, 12, 14, 15, 18, 21, 25, 28, 30, 35, 40, 45
       ];
 
       // Calculate and format the dates
@@ -48,7 +48,7 @@ function AddDaysToDate() {
   return (
     <div className="app-container">
       <div>
-        <h2>Best Before Date Calculator</h2>
+        <h3>Best Before Date Calculator</h3>
         <label>
           Enter the 1st day counted date:&nbsp;
           <input
@@ -61,8 +61,7 @@ function AddDaysToDate() {
         <button onClick={calculateDates}>Calculate Dates</button>
         {startDate && (
           <h4 className="developer">
-            Selected Date or Date Started:{" "}
-            {formatDateToYYMMDD(new Date(startDate))}
+            Date Started: {formatDateToYYMMDD(new Date(startDate))}
           </h4>
         )}
         <div>
