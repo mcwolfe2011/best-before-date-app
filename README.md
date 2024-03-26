@@ -68,3 +68,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Check it out:
+![image](https://github.com/mcwolfe2011/best-before-date-app/assets/25851152/8a369704-a673-4fe2-8ea5-1620ecb7ecff)
+
+Best Before Date Calculator: [https://glittering-bavarois-501d37.netlify.app/]
