@@ -98,7 +98,7 @@ export default AddDaysToDate;
 
 // Function to generate a random color
 const getRandomColor = () => {
-  const colors = ["#0048BA", "#9966CC", "#DA1884"];
+  const colors = ["#0048BA", "#9966CC", "#DA1884", "#B0BF1A", "#9F2B68", "#665D1E", "#00FFFF", "#4B6F44", "#FF9966", "#007FFF", "#FF91AF", "#CAE00D", "#0000FF", "#008080", "#D891EF", "#DE5D83", "#CB4154", "#8A2BE2", "#FFAA1D", "#F56FA1", "#008B8B", "#9400D3", "#FF1493", "#BF00FF", "#50C878", "#FD6C9E", "#77B5FE"];
   return colors[Math.floor(Math.random() * colors.length)];
 };
 
