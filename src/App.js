@@ -34,7 +34,7 @@ function AddDaysToDate() {
     const inputDate = new Date(startDate);
     if (!isNaN(inputDate.getTime())) {
       const daysToCalculate = [
-        3, 4, 5, 7, 8, 10, 12, 14, 15, 18, 21, 25, 28, 30, 35, 40, 45
+        3, 4, 5, 7, 8, 10, 12, 14, 15, 18, 21, 25, 28, 30, 35, 40, 45, 60
       ];
 
       const calculatedDates = daysToCalculate.map(daysToAdd => {
