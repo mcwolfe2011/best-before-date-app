@@ -98,7 +98,7 @@ export default AddDaysToDate;
 
 // Function to generate a random color
 const getRandomColor = () => {
-  const colors = ["red", "blue", "green", "orange", "purple", "pink"];
+  const colors = ["red", "blue", "green", "orange", "purple", "pink", "Absolute Zero", "Acid green", "African violet", "Android green", "Amethyst", "Aqua", "Azure", "Artichoke green", "Barbie Pink", "Baby blue eyes", "Bitter lemon", "Canary yellow", "Deep pink", "Electric purple", "Fiery rose", "Flirt", "French pink", "French fuchsia", "Frostbite", "French violet"];
   return colors[Math.floor(Math.random() * colors.length)];
 };
 
